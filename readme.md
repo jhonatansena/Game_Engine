@@ -1,12 +1,10 @@
 Exercício - Allegro
 Professor: Isaac Franco Fernandes
 Crie um Game Engine capaz de realizar os reguintes recursos:
-Etapa 1)
 
+ETAPA 1)
 •
-•
-Tenha uma classe base chamada GameObject com “nome”, “posicao_x”, “posicao_y”,
-“velocidade_x”, “velocidade_y” e “atrito”.
+Tenha uma classe base chamada GameObject com “nome”, “posicao_x”, “posicao_y”,“velocidade_x”, “velocidade_y” e “atrito”.
 GameObject deve ter 4 métodos: Start(); Update(); Render();
 ◦ Start() roda somente uma vez quando o objeto é criado
 ◦ Update() roda a cada frame e deve conter as mudanças físicas de movimento;
@@ -22,10 +20,11 @@ GameObject, permitindo adiconar, remover e buscar um (GameObject *) por nome;
 Em GameObjectList crie os métodos Update() e Render() que percorre todos os elementos
 cadastrados executando o método Update() e Render(), respectivamente, de cada um deles.
 Crie um jogo que teste seu Game Engine versão 0.1-alpha
-Etapa 2)
+
+ETAPA 2)
+
 • Na classe GameObject, Circulo e Retangulo crie um método chamado MouseDown(int x, int
-y) que deve ser chamada quando se clicar em um dos Objetos, passando as coordenadas (x,
-y) onde ocorreu o clique.
+y) que deve ser chamada quando se clicar em um dos Objetos, passando as coordenadas (x,y) onde ocorreu o clique.
 • Na classe GameObjectList crie um método também chamado MouseDown(int x, int y), onde
 (x, y) é o local onde ocorreu o clique. Esse método deve percorrer todos os elementos da
 lista verificando se o clique nas coordenadas (x, y) atingiu o elemento atual. Se atingir o
@@ -37,7 +36,9 @@ que modifica as velocidades_x e velocidades_y do elemento. Deconsidere a forma
 geométrica do elemento, considere que a força é aplicada no elemento por igual em todos os
 seus pontos.
 • Crie um jogo que teste os novos recursos do seu Game Engine versão 0.2-beta
-Etapa 3) – desafio
+
+ETAPA 3) – DESAFIO
+
 • Crie um sistema de detecção de colisão entre os elementos do jogo(GameObject). Esse
 sistema pode ser um método dentro de GameObjectList chamado DetactaColisao() que
 verifica se cada um dos elementos colidiu com cada um dos outros elementos. Se colidiu um
