@@ -49,4 +49,4 @@ frame anterior (que precisa ser armazenada). Uma outra estratégia é utilizar a
 definir a nova posição dos dois objetos que colidiram de acordo com as forças aplicadas.
 
 
-
+Criação de uma Game engine
