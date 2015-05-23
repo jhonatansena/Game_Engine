@@ -35,11 +35,11 @@ cada figura geométrica tem sua forma de verificar se um ponto (x,y) se encontra
 que modifica as velocidades_x e velocidades_y do elemento. Deconsidere a forma
 geométrica do elemento, considere que a força é aplicada no elemento por igual em todos os
 seus pontos.
-• Crie um jogo que teste os novos recursos do seu Game Engine versão 0.2-beta
+Crie um jogo que teste os novos recursos do seu Game Engine versão 0.2-beta
 
 ETAPA 3) – DESAFIO
 
-• Crie um sistema de detecção de colisão entre os elementos do jogo(GameObject). Esse
+ Crie um sistema de detecção de colisão entre os elementos do jogo(GameObject). Esse
 sistema pode ser um método dentro de GameObjectList chamado DetactaColisao() que
 verifica se cada um dos elementos colidiu com cada um dos outros elementos. Se colidiu um
 método chamado ColisaoEncontrada(GameObject *objeto1, GameObject *objeto2) é
@@ -47,3 +47,6 @@ chamada e deve decidir o que fazer. Inicialmente o que pode ser feito é reposic
 objetos para que eles não colidam. Uma estratégia é voltar os objetos para sua posição no
 frame anterior (que precisa ser armazenada). Uma outra estratégia é utilizar a física para
 definir a nova posição dos dois objetos que colidiram de acordo com as forças aplicadas.
+
+
+
