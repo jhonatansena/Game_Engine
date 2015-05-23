@@ -2,11 +2,7 @@ Exercício - Allegro
 Professor: Isaac Franco Fernandes
 Crie um Game Engine capaz de realizar os reguintes recursos:
 Etapa 1)
-•
-•
-•
-•
-•
+
 •
 •
 Tenha uma classe base chamada GameObject com “nome”, “posicao_x”, “posicao_y”,
