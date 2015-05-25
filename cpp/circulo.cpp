@@ -1,9 +1,5 @@
 #include "circulo.h"
 
-#include<allegro5/allegro5.h>
-#include<allegro5/allegro_primitives.h>
-#include<allegro5/drawing.h>
-
     float Circulo::getRaio(){
 
     return this->raio;
@@ -30,9 +26,6 @@
     void Circulo::setEspessura(float espessura){
         this->espessura = espessura;
     }
-
-
-
 
 
 void Circulo::Render(){
